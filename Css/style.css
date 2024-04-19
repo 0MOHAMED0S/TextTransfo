@@ -1,0 +1,118 @@
+:root {
+    --bs-border-color: #cc01ff;
+    --bs--color: #cc01fff7;
+    --bs-navbar-brand-color: rgb(255 255 255) !important;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: var(--bs--color) !important;
+}
+.navbar-brand {
+    color: #f8f9fa !important;
+}
+.btn {
+    background-color: #d500ff;
+    color: #f8f9fa;
+    border: 2px solid white;
+}
+.btn:hover{
+background-color: #d400ff;
+color: white;
+}
+.container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row2 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.row2 i {
+    margin: 10px;
+    color: white;
+    background-color: #d500ff;
+    width: 50px;
+    height: 50px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+}
+.g{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+nav
+{
+    background-color: rgb(209 0 255 / 21%) !important;
+}
+nav .logo i {
+    margin: 5px;
+    color: white;
+    background-color: #d500ff;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+    border: 2px solid white;
+
+}
+
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #b900ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(204 1 255 / 25%);
+}
+
+p {
+    font-family: inherit;
+    line-height: 1.9rem;
+}
+
+textarea:disabled {
+    background-color: #f8f9fa;
+    /* Change this to your desired background color */
+}
+.textarea-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    color: white;
+    background-color: #d100ff;
+    padding: 3px;
+}
+footer{
+    height: 50px;
+    background: #d100ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
